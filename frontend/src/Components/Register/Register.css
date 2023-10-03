@@ -1,0 +1,146 @@
+.register-page {
+    height: 88vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container{
+    height: 78%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2vmax;
+    background-color: white;
+    border-radius: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    /* background-color: greenyellow; */
+}
+
+.register-h1 {
+    font-size: 22px;
+    font-weight:600;
+    margin-bottom: -2px;
+    margin-top: 3px;
+    /* background-color: red; */
+    
+}
+.register-input {
+    height: 70%;
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+.register-inputval {
+    font-size: 16px;
+    padding: 1.3vmax;
+    margin-top: 1.5vmax;
+    border-radius: 5px;
+    border: 1px solid rgb(206, 203, 203);
+    outline: none;
+}
+
+.register-inputval:hover {
+    border: 1px solid black;
+}
+.register-inputval:focus {
+    border: 2px solid black;
+}
+
+.register-btnflex {
+    height: 30%;
+    width: 62%;
+    margin-top: 24px;
+    /* background-color: orange; */
+}
+
+.register-btn {
+    width: 100%;
+    font-size: 20px;
+    padding: 6px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(251, 60, 2);
+    transition: background-color 0.3s ease; /* Add a transition for smooth hover effect */
+}
+
+.register-btn:hover {
+    background-color: rgba(7, 218, 242, 0.9); 
+    color: black;
+  }
+
+  /* @media queries are used to apply specific styles to a web page based on the characteristics of the device or viewport, such as its width, height, or orientation */
+  /* enclosed styles will be applied only when the width of the viewport is less than or equal to 768 pixels. */
+@media (max-width: 768px) {
+    .register-container {
+        width: 80%;
+    }
+    
+    .register-h1 {
+        font-size: 18px;
+        margin-bottom: 10px; /* Increase margin-bottom for smaller screens */
+    }
+    
+    .register-inputval,
+    .register-btn {
+        width: 100%;
+    }
+    
+    .register-btn {
+        font-size: 18px;
+        padding: 5px;
+        margin-top: 10px; /* Adjust margin-top for smaller screens */
+    }
+}
+
+
+@media (max-width: 660px) {
+    .register-btnflex  {
+        margin-top: -10vmax;
+    }
+}
+
+@media (max-width: 610px) {
+    .register-btnflex  {
+        margin-top: -14vmax;
+    }
+}
+
+@media (max-width: 551px) {
+    .register-btnflex  {
+        margin-top: -18vmax;
+        font-size: 14px;
+    }
+
+}
+@media (max-width: 450px) {
+    .register-btnflex  {
+        font-size: 12px;
+        margin-top: -20vmax;
+    }
+    .register-inputval {
+        font-size: 11px;
+    }
+    .register-h1 {
+       font-size: 15px;
+    }
+    .register-btn {
+        font-size: 12px;
+    }
+}
+@media (max-width: 310px) {
+    .register-btnflex  {
+        font-size: 10px;
+        margin-top: -22vmax;
+    }
+    .register-btn {
+        font-size:10px;
+    }
+}
+

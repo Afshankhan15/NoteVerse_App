@@ -1,0 +1,36 @@
+.bg-image-container {
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 86vh;
+    background-image: url('https://cdn.dribbble.com/users/1341307/screenshots/5180233/landing-page_4x.png')
+  }
+   
+
+  .text-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 16vmax;
+    color:rgb(6, 161, 6);
+  } 
+ 
+
+@media (max-width: 800px) {
+  .text-content {
+    font-size: 18px; /* Adjust the font size for screens 800px or smaller */
+    margin-top: 24vmax;
+  }
+}
+@media (max-width: 610px) {
+  .text-content {
+    font-size: 10px; 
+    margin-top: 28vmax;
+  }
+}
+
+   

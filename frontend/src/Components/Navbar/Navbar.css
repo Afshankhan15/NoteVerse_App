@@ -1,0 +1,68 @@
+.Navbar {
+    height: 11vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  
+  .Navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  .Navbar-links li {
+    margin: 0 24px;
+  }
+  
+  .Navbar-links a {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .Navbar-links a:hover {
+    color: lightblue;
+  }
+
+ 
+  /* apply when the screen size is less than or equal to 469 pixels */
+  @media (max-width: 469px) {
+    .Navbar-links li {
+      margin: 0 10px; /* Adjust horizontal margin */
+    }
+    .Navbar-links a {
+      font-size: 18px;
+    }
+  }
+  
+  /* apply when the screen size is less than or equal to 357 pixels */
+  @media (max-width: 357px) {
+    
+    .Navbar-links a {
+      font-size: 14px;
+    }
+  }
+  
+  /* apply when the screen size is less than or equal to 300 pixels */
+  @media (max-width: 300px) {
+    
+    .Navbar-links a {
+      font-size: 12px;
+    }
+  }
+  
+  /* apply when the screen size is less than or equal to 271 pixels */
+  @media (max-width: 271px) {
+    
+    .Navbar-links a {
+      font-size: 10px;
+    }
+  }
