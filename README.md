@@ -47,12 +47,7 @@ Once the application is running, you can begin using Note Verse. Here are some b
 - Register a new account with your Name, Email, and Password.
 - Log in to access your personal notes.
 - Create, edit, and delete notes to manage your digital notebook.
-- Explore the user-friendly interface and navigate between different sections.
-
-## Contact 📧
-
-Afshan Khan - [LinkedIn](https://www.linkedin.com/in/afshan-khan252)  
-Project Link: [https://github.com/Afshankhan15/NoteVerse_App](https://github.com/Afshankhan15/NoteVerse_App)
+- Explore the user-friendly interface and navigate between different sections
 
 ## Contributing
 
